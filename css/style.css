@@ -1,0 +1,218 @@
+.main_header_content_container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu_left_container{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+.menu_left{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.munu_list{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+}
+.menu_right_container{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+.menu_right{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.logo_container{
+    width: max-content;
+    transition: 1s;
+}
+.logo_container:hover{
+    transform: scale(1.02);
+}
+.logo_xeus_header{
+    width: 170px;
+    height: 40px;
+}
+.main_background_image_container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+.main_background_image{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.abt_game_quote_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.abt_game_quote{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.download_main_container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download_button{
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(240, 248, 255, 0);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+.download_button:hover{
+    border: 2px solid rgb(42, 87, 164);
+}
+
+
+
+.main_contents_container{
+    margin-top: 80vh;
+}
+
+
+.about_game_container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.g1{
+    width: 90%;
+}
+.container_of_images_1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+    
+}
+.image_1_main_content_container{
+    
+}
+.image_1_main_content{
+    width: 500px;
+    border-radius: 5px;
+}
+.text_1_main_content_container{
+    width: 700px;
+}
+.text_1_main_content{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.container_of_images_2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+    width: 90%;
+}
+.image_2_main_content_container{
+
+}
+.image_2_main_content{
+    width: 500px;
+    border-radius: 5px;
+}
+.text_2_main_content_container{
+    width: 700px;
+}
+.text_2_main_content{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+
+
+/* DEVELOPMENT STYLES START */
+.abt_game_quote_development{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.game_engine_container{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.main_game_engine_container{
+    width: max-content;
+}
+.image_of_game_engine_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_of_game_engine_png{
+    width: 200px;
+}
+.title_of_game_engine_container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_of_game_engine{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 15px 0px 0px 0px;
+}
+.description_of_game_engine_container{
+    width: 100%;
+}
+.description_of_game_engine{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 7px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ul_description_advantages{
+    align-items: self-end;
+    margin-top: 0;
+}
+.list_of_description_advantages{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+/* DEVELOPMENT STYLES END */
