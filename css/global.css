@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(50, 50, 50);
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    width: 0;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd00;
+    border-radius: 10px;
+    
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #80808062;
+}
+
+
+header{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.290);
+    background-color: rgba(0, 0, 0, 0);
+}
+.header_mainpage:hover{
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+a:hover{
+    color: rgb(27, 92, 205);
+}
+li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
